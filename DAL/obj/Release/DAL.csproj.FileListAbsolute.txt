@@ -1,0 +1,13 @@
+E:\software\drWMSone\CodeWMSDemo\DAL\bin\Release\Cao.WMS.DAL.dll
+E:\software\drWMSone\CodeWMSDemo\DAL\bin\Release\Cao.WMS.Common.dll
+E:\software\drWMSone\CodeWMSDemo\DAL\bin\Release\Cao.WMS.DBUtility.dll
+E:\software\drWMSone\CodeWMSDemo\DAL\bin\Release\Cao.WMS.Model.dll
+E:\software\drWMSone\CodeWMSDemo\DAL\bin\Release\MySql.Data.dll
+E:\software\drWMSone\CodeWMSDemo\DAL\bin\Release\OpenSmtp.dll
+E:\software\drWMSone\CodeWMSDemo\DAL\bin\Release\Excel.dll
+E:\software\drWMSone\CodeWMSDemo\DAL\bin\Release\COM.Excel.dll
+E:\software\drWMSone\CodeWMSDemo\DAL\bin\Release\IBatisNet.DataMapper.dll
+E:\software\drWMSone\CodeWMSDemo\DAL\bin\Release\IBatisNet.Common.dll
+E:\software\drWMSone\CodeWMSDemo\DAL\bin\Release\System.Data.SQLite.dll
+E:\software\drWMSone\CodeWMSDemo\DAL\obj\Release\DAL.csprojResolveAssemblyReference.cache
+E:\software\drWMSone\CodeWMSDemo\DAL\obj\Release\Cao.WMS.DAL.dll

@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\wmsonlineDR</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Cao.WMS.BLL.dll">
+      <publishTime>05/10/2017 15:47:17</publishTime>
+    </File>
+    <File Include="bin/Cao.WMS.Common.dll">
+      <publishTime>05/10/2017 15:47:16</publishTime>
+    </File>
+    <File Include="bin/Cao.WMS.DAL.dll">
+      <publishTime>05/10/2017 15:47:17</publishTime>
+    </File>
+    <File Include="bin/Cao.WMS.DBUtility.dll">
+      <publishTime>05/10/2017 15:47:16</publishTime>
+    </File>
+    <File Include="bin/Cao.WMS.Model.dll">
+      <publishTime>05/10/2017 15:47:16</publishTime>
+    </File>
+    <File Include="bin/Cao.WMS.Web.dll">
+      <publishTime>05/10/2017 15:47:17</publishTime>
+    </File>
+    <File Include="bin/COM.Excel.dll">
+      <publishTime>03/20/2013 11:32:56</publishTime>
+    </File>
+    <File Include="bin/Excel.dll">
+      <publishTime>03/20/2013 11:32:58</publishTime>
+    </File>
+    <File Include="bin/IBatisNet.Common.dll">
+      <publishTime>03/20/2013 11:32:56</publishTime>
+    </File>
+    <File Include="bin/IBatisNet.DataMapper.dll">
+      <publishTime>03/20/2013 11:33:04</publishTime>
+    </File>
+    <File Include="bin/LTP.Accounts.dll">
+      <publishTime>03/20/2013 11:33:00</publishTime>
+    </File>
+    <File Include="bin/LtpPageControl.dll">
+      <publishTime>03/20/2013 11:33:00</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.UI.WebControls.dll">
+      <publishTime>03/20/2013 11:32:58</publishTime>
+    </File>
+    <File Include="bin/MySql.Data.dll">
+      <publishTime>03/20/2013 11:33:00</publishTime>
+    </File>
+    <File Include="bin/OpenSmtp.dll">
+      <publishTime>03/20/2013 11:33:04</publishTime>
+    </File>
+    <File Include="bin/System.Data.SQLite.dll">
+      <publishTime>03/20/2013 11:33:06</publishTime>
+    </File>
+    <File Include="caowms/Goods/Add.aspx">
+      <publishTime>05/10/2017 14:47:46</publishTime>
+    </File>
+    <File Include="caowms/Goods/List.aspx">
+      <publishTime>05/10/2017 14:47:46</publishTime>
+    </File>
+    <File Include="caowms/Goods/Modify.aspx">
+      <publishTime>05/10/2017 14:47:46</publishTime>
+    </File>
+    <File Include="caowms/Goods/Show.aspx">
+      <publishTime>05/10/2017 14:47:46</publishTime>
+    </File>
+    <File Include="caowms/Records/Add.aspx">
+      <publishTime>05/10/2017 14:47:46</publishTime>
+    </File>
+    <File Include="caowms/Records/List.aspx">
+      <publishTime>05/10/2017 14:47:46</publishTime>
+    </File>
+    <File Include="caowms/Records/Modify.aspx">
+      <publishTime>05/10/2017 14:47:46</publishTime>
+    </File>
+    <File Include="caowms/Records/Show.aspx">
+      <publishTime>05/10/2017 14:47:46</publishTime>
+    </File>
+    <File Include="caowms/Store/Add.aspx">
+      <publishTime>05/10/2017 14:47:46</publishTime>
+    </File>
+    <File Include="caowms/Store/List.aspx">
+      <publishTime>05/10/2017 14:47:46</publishTime>
+    </File>
+    <File Include="caowms/Store/Modify.aspx">
+      <publishTime>05/10/2017 14:47:46</publishTime>
+    </File>
+    <File Include="caowms/Store/Show.aspx">
+      <publishTime>05/10/2017 14:47:46</publishTime>
+    </File>
+    <File Include="caowms/Users/Add.aspx">
+      <publishTime>05/10/2017 14:47:46</publishTime>
+    </File>
+    <File Include="caowms/Users/List.aspx">
+      <publishTime>05/10/2017 14:47:46</publishTime>
+    </File>
+    <File Include="caowms/Users/Modify.aspx">
+      <publishTime>05/10/2017 14:47:46</publishTime>
+    </File>
+    <File Include="caowms/Users/Show.aspx">
+      <publishTime>05/10/2017 14:47:46</publishTime>
+    </File>
+    <File Include="caowms/Warehouses/Add.aspx">
+      <publishTime>05/10/2017 14:47:46</publishTime>
+    </File>
+    <File Include="caowms/Warehouses/List.aspx">
+      <publishTime>05/10/2017 14:47:46</publishTime>
+    </File>
+    <File Include="caowms/Warehouses/Modify.aspx">
+      <publishTime>05/10/2017 14:47:46</publishTime>
+    </File>
+    <File Include="caowms/Warehouses/Show.aspx">
+      <publishTime>05/10/2017 14:47:46</publishTime>
+    </File>
+    <File Include="Controls/checkright.ascx">
+      <publishTime>05/10/2017 14:47:46</publishTime>
+    </File>
+    <File Include="Controls/copyright.ascx">
+      <publishTime>05/10/2017 15:44:02</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>05/10/2017 15:37:17</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>05/10/2017 14:47:46</publishTime>
+    </File>
+    <File Include="MasterPage.master">
+      <publishTime>05/10/2017 14:47:46</publishTime>
+    </File>
+    <File Include="Style.css">
+      <publishTime>03/20/2013 11:33:02</publishTime>
+    </File>
+    <File Include="ValidateCode.aspx">
+      <publishTime>05/10/2017 14:47:46</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>05/10/2017 15:40:57</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

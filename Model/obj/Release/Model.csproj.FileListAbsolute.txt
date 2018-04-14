@@ -1,0 +1,2 @@
+E:\software\drWMSone\CodeWMSDemo\Model\bin\Release\Cao.WMS.Model.dll
+E:\software\drWMSone\CodeWMSDemo\Model\obj\Release\Cao.WMS.Model.dll

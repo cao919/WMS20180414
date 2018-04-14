@@ -1,0 +1,10 @@
+E:\software\drWMSone\CodeWMSDemo\Model\bin\Debug\Cao.WMS.Model.dll
+E:\software\drWMSone\CodeWMSDemo\Model\bin\Debug\Cao.WMS.Model.pdb
+E:\software\drWMSone\CodeWMSDemo\Model\obj\Debug\Cao.WMS.Model.dll
+E:\software\drWMSone\CodeWMSDemo\Model\obj\Debug\Cao.WMS.Model.pdb
+E:\software\drWMSone\CodeWMSDemo\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+E:\OP\drWMSone20170512\drWMSone\CodeWMSDemo\Model\bin\Debug\Cao.WMS.Model.dll
+E:\OP\drWMSone20170512\drWMSone\CodeWMSDemo\Model\bin\Debug\Cao.WMS.Model.pdb
+E:\OP\drWMSone20170512\drWMSone\CodeWMSDemo\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+E:\OP\drWMSone20170512\drWMSone\CodeWMSDemo\Model\obj\Debug\Cao.WMS.Model.dll
+E:\OP\drWMSone20170512\drWMSone\CodeWMSDemo\Model\obj\Debug\Cao.WMS.Model.pdb

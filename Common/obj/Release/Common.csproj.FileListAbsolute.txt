@@ -1,0 +1,7 @@
+E:\software\drWMSone\CodeWMSDemo\Common\bin\Release\Cao.WMS.Common.dll
+E:\software\drWMSone\CodeWMSDemo\Common\bin\Release\COM.Excel.dll
+E:\software\drWMSone\CodeWMSDemo\Common\bin\Release\Excel.dll
+E:\software\drWMSone\CodeWMSDemo\Common\bin\Release\OpenSmtp.dll
+E:\software\drWMSone\CodeWMSDemo\Common\bin\Release\OWC10Chart.dll
+E:\software\drWMSone\CodeWMSDemo\Common\obj\Release\Common.csprojResolveAssemblyReference.cache
+E:\software\drWMSone\CodeWMSDemo\Common\obj\Release\Cao.WMS.Common.dll

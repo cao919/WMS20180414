@@ -1,0 +1,17 @@
+E:\software\drWMSone\CodeWMSDemo\DBUtility\bin\Debug\Cao.WMS.DBUtility.dll
+E:\software\drWMSone\CodeWMSDemo\DBUtility\bin\Debug\Cao.WMS.DBUtility.pdb
+E:\software\drWMSone\CodeWMSDemo\DBUtility\bin\Debug\IBatisNet.Common.dll
+E:\software\drWMSone\CodeWMSDemo\DBUtility\bin\Debug\IBatisNet.DataMapper.dll
+E:\software\drWMSone\CodeWMSDemo\DBUtility\bin\Debug\MySql.Data.dll
+E:\software\drWMSone\CodeWMSDemo\DBUtility\bin\Debug\System.Data.SQLite.DLL
+E:\software\drWMSone\CodeWMSDemo\DBUtility\obj\Debug\Cao.WMS.DBUtility.dll
+E:\software\drWMSone\CodeWMSDemo\DBUtility\obj\Debug\Cao.WMS.DBUtility.pdb
+E:\OP\drWMSone20170512\drWMSone\CodeWMSDemo\DBUtility\bin\Debug\Cao.WMS.DBUtility.dll
+E:\OP\drWMSone20170512\drWMSone\CodeWMSDemo\DBUtility\bin\Debug\Cao.WMS.DBUtility.pdb
+E:\OP\drWMSone20170512\drWMSone\CodeWMSDemo\DBUtility\bin\Debug\IBatisNet.Common.dll
+E:\OP\drWMSone20170512\drWMSone\CodeWMSDemo\DBUtility\bin\Debug\IBatisNet.DataMapper.dll
+E:\OP\drWMSone20170512\drWMSone\CodeWMSDemo\DBUtility\bin\Debug\MySql.Data.dll
+E:\OP\drWMSone20170512\drWMSone\CodeWMSDemo\DBUtility\bin\Debug\System.Data.SQLite.DLL
+E:\OP\drWMSone20170512\drWMSone\CodeWMSDemo\DBUtility\obj\Debug\DBUtility.csprojResolveAssemblyReference.cache
+E:\OP\drWMSone20170512\drWMSone\CodeWMSDemo\DBUtility\obj\Debug\Cao.WMS.DBUtility.dll
+E:\OP\drWMSone20170512\drWMSone\CodeWMSDemo\DBUtility\obj\Debug\Cao.WMS.DBUtility.pdb
