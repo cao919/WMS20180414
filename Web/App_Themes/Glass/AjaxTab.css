@@ -1,0 +1,56 @@
+/* TabContainer 蓝色简单样式 */
+.ajaxTab .ajax__tab_header
+{
+	background-image: url("/OTC.URFORM.Web/App_Themes/Glass/Images/Control/ajax_tab_header_bg1.gif");
+	font-family: verdana;
+	height: 25px;
+	padding-left: 8px;
+	padding-right: 0px;
+	padding-top: 8px;
+	
+	background-color: #DBEFF2;
+	border-top: 1px solid #107DD8;
+	border-left: 1px solid #107DD8;
+	border-right: 1px solid #107DD8;
+}
+/* 默认tab设置 */
+.ajaxTab .ajax__tab_tab
+{	
+	font-family: verdana;
+	font-size: 12px;
+	color:#366092;
+	font-weight:bold;
+	padding-top:4px;
+	padding-bottom:2px;
+	padding-left:12px;
+	padding-right:12px;
+	height: 20px; 
+	background-color: #C6D9F0;
+	border: 1px solid #ffffff;
+	border-bottom:0px solid #ffffff;
+}
+.ajaxTab .ajax__tab_hover .ajax__tab_tab
+{
+	background-image: url("/OTC.URFORM.Web/App_Themes/Glass/Images/Control/ajax_tab_bg1.gif");
+	font-family: verdana;
+	font-weight: bold;
+	color:#F57900;
+	text-decoration: none;
+}
+/* 当前激活选项卡设置*/
+.ajaxTab .ajax__tab_active .ajax__tab_tab
+{
+	font-family: verdana;
+	background-color: #F2F7FB;
+	font-weight: bold;
+}
+/*Body设置*/
+.ajaxTab .ajax__tab_body
+{
+	font-family: verdana;
+	border: 1px solid #107DD8;
+	border-top: 0;
+	padding: 8px;
+	background-color: #F2F7FB;
+}
+

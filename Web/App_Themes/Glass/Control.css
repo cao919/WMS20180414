@@ -1,0 +1,361 @@
+﻿
+
+.TextBox
+{
+	font-family: verdana;
+	font-size: 11px;
+	color: #000000;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	margin-left: 1px;
+	margin-right: 1px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 1px;
+	padding-right: 1px;
+	border-top: solid 1px #CFDBEB;
+	border-bottom: solid 1px #CFDBEB;
+	border-left: solid 1px #CFDBEB;
+	border-right: solid 1px #CFDBEB;
+}
+.TextBox_Readonly
+{
+	font-family: verdana;
+	font-size: 11px;
+	color: #888A85;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	margin-left: 1px;
+	margin-right: 1px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 1px;
+	padding-right: 1px;
+	border-top: solid 1px #CFDBEB;
+	border-bottom: solid 1px #CFDBEB;
+	border-left: solid 1px #CFDBEB;
+	border-right: solid 1px #CFDBEB;
+	background-color: #F3F3F3;
+}
+
+.Button
+{
+	background-color: #F4F8FB;
+	padding-top: 4px;
+	padding-bottom: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+	border-top: solid 1px #7B91B2;
+	border-bottom: solid 1px #667893;
+	border-left: solid 1px #7B91B2;
+	border-right: solid 1px #667893;
+	background-image: url("/OTC.URFORM.Web/App_Themes/Glass/Images/Control/button_bg2.gif");
+	font-size: 12px;
+	color: #000000;
+}
+.Button_Small
+{
+	background-color: #F4F8FB;
+	padding-top: 3px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	border-top: solid 1px #7B91B2;
+	border-bottom: solid 1px #667893;
+	border-left: solid 1px #7B91B2;
+	border-right: solid 1px #667893;
+	background-image: url("/OTC.URFORM.Web/App_Themes/Glass/Images/Control/button_bg2.gif");
+	font-size: 9px;
+	color: #000000;
+}
+.Button_Big
+{
+	background-color: #F4F8FB;
+	margin: 2px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 8px;
+	padding-right: 8px;
+	border-top: solid 1px #7B91B2;
+	border-bottom: solid 2px #667893;
+	border-left: solid 1px #7B91B2;
+	border-right: solid 2px #667893;
+	background-image: url("/OTC.URFORM.Web/App_Themes/Glass/Images/Control/button_bg2.gif");
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.DropDownList
+{
+	font-family: verdana;
+	font-size: 11px;
+	color: #000000;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	margin-left: 1px;
+	margin-right: 1px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 1px;
+	padding-right: 1px;
+	border-top: solid 1px #CFDBEB;
+	border-bottom: solid 1px #CFDBEB;
+	border-left: solid 1px #CFDBEB;
+	border-right: solid 1px #CFDBEB;
+}
+
+.RequiredFieldValidator
+{
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 11px;
+}
+
+.GridView
+{
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 8px;
+	padding-right: 8px;
+	border-top: solid 1px #C8C8C8;
+	border-bottom: solid 1px #C8C8C8;
+	border-left: solid 1px #C8C8C8;
+	border-right: solid 1px #C8C8C8;
+	background-color: White;
+}
+
+
+.GridView_Header
+{
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 8px;
+	padding-right: 8px;
+	border-top: solid 1px #FFFFFF;
+	border-bottom: solid 1px #C8C8C8;
+	border-left: solid 1px #FFFFFF;
+	border-right: solid 1px #FFFFFF;
+	height: 20px;
+	text-align: center;
+	background-image: url("/OTC.URFORM.Web/App_Themes/Glass/Images/GridView/grid_header_bg.gif");
+	font-size: 13px;
+	font-weight: bold;
+	color: #0E5A94;
+}
+
+.GridView_Row
+{
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 8px;
+	padding-right: 8px;
+	border-top: solid 1px #F4F9FB;
+	border-bottom: solid 1px #F4F9FB;
+	border-left: solid 1px #F4F9FB;
+	border-right: solid 1px #F4F9FB;
+	height: 20px;
+	font-size: 12px;
+}
+
+.GridView_Row_Selected
+{
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 8px;
+	padding-right: 8px;
+	border-top: solid 1px #F4F9FB;
+	border-bottom: solid 1px #F4F9FB;
+	border-left: solid 1px #F4F9FB;
+	border-right: solid 1px #F4F9FB;
+	height: 20px;
+	font-size: 12px;
+	background-color: #4690C3;
+}
+
+.GridView_Row_Alternating
+{
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 8px;
+	padding-right: 8px;
+	border-top: solid 1px #F4F9FB;
+	border-bottom: solid 1px #F4F9FB;
+	border-left: solid 1px #F4F9FB;
+	border-right: solid 1px #F4F9FB;
+	height: 20px;
+	font-size: 12px;
+	background-color: #F1F8FA;
+}
+
+.GridView_Pager
+{
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 8px;
+	padding-right: 8px;
+	border-top: solid 1px #F4F9FB;
+	border-bottom: solid 1px #F4F9FB;
+	border-left: solid 1px #F4F9FB;
+	border-right: solid 1px #F4F9FB;
+	height: 23px;
+	font-size: 14px;
+	background-color: #F4F9FB;
+}
+
+
+
+.GridView_FixedTitleRow
+{
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 8px;
+	padding-right: 8px;
+	border-top: solid 1px #FFFFFF;
+	border-bottom: solid 1px #C8C8C8;
+	border-left: solid 1px #FFFFFF;
+	border-right: solid 1px #FFFFFF;
+	height: 22px;
+	text-align: center;
+	background-image: url("/OTC.URFORM.Web/App_Themes/Glass/Images/GridView/grid_header_bg.gif");
+	font-size: 13px;
+	font-weight: bold;
+	color: #0E5A94;
+	z-index: 10;
+	position: relative;
+	top: expression(this.offsetParent.scrollTop - 2);
+}
+
+.GridView_FixedDataColumn
+{
+	left: expression(this.parentElement.offsetParent.parentElement.scrollLeft - 2);
+	border-left: #DCEFFA 1px solid;
+	border-right: #DCEFFA 0px solid;
+	border-top: #DCEFFA0 1px solid;
+	border-bottom: #DCEFFA 0px solid;
+	position: relative;
+	background-color: #F5FBFE;
+}
+
+.GridView_FixedTitleColumn
+{
+	left: expression(this.parentElement.offsetParent.scrollLeft - 2);
+	border-left: #DCEFFA 1px solid;
+	border-right: #DCEFFA 0px solid;
+	border-top: #DCEFFA 0px solid;
+	border-bottom: #DCEFFA 1px solid;
+	position: relative;
+	background-color: #E3F5FD;
+}
+
+
+.GridView_Rpt_Header1
+{
+	line-height: 25px;
+	height: 20px;
+	font-weight: bold;
+	background-image: url(/App_Themes/Glass/Images/GridView/bg_header1.gif);
+	background-color: #d6e4f6;
+	color: #0E5A94;
+	text-align: center;
+	font-size: 13px;
+}
+
+.GridView_Rpt_Header2
+{
+	line-height: 25px;
+	height: 20px;
+	font-weight: bold;
+	background-color: #d6e4f6;
+	color: #0E5A94;
+	text-align: center;
+}
+
+.GridView_Rpt_Header3
+{
+	line-height: 25px;
+	height: 20px;
+	border: solid 1px #EFEFEF;
+	font-weight: bold;
+	background-color: #d6e4f6;
+	color: #0E5A94;
+	text-align: center;
+}
+
+.GridView_Rpt_Footer1
+{
+	line-height: 25px;
+	height: 28px;
+	border: solid 1px #EFEFEF;
+	font-weight: bold;
+	background-color: #F4F9FB;
+	color: Red;
+	font-size: 13px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+ul.prod_sym
+{
+	float: left;
+	display: inline;
+	margin: 8px 0 10px 11px;
+	width: 180px;
+	height: 300px;
+	border: 1px solid #8D99BD;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	scrollbar-base-color: #8D99BD;
+	scrollbar-face-color: #fff;
+	scrollbar-track-color: #fff;
+	scrollbar-arrow-color: #8D99BD;
+	scrollbar-3dlight-color: #fff;
+	scrollbar-darkshadow-color: #fff;
+	scrollbar-highlight-color: #8D99BD;
+	scrollbar-shadow-color: #8D99BD;
+}
+ul.prod_sym li
+{
+	margin: 4px 0;
+	float: left;
+	width: 150px;
+	padding: 0 8px;
+}
+ul.prod_sym li.sub_sym
+{
+	background: #E6F2EC;
+}
+
+/*Popup Control*/
+.popupControl
+{
+	background-color: White;
+	position: absolute;
+	visibility: hidden;
+}
+
+.MaskedEditFocus
+{
+    background-color: #ffffcc;
+    color: #000000;
+}
+.MaskedEditMessage
+{
+	color: #ff0000;
+	font-weight: bold;
+}
+.MaskedEditError
+{
+    background-color: #ffcccc;
+}
+.MaskedEditFocusNegative
+{
+    background-color: #ffffcc;
+    color: #ff0000;
+}
+.MaskedEditBlurNegative
+{
+    color: #ff0000;
+}
+
+

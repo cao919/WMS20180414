@@ -1,0 +1,113 @@
+.LeftMenu_Panel
+{
+	background-color: #ffffff;
+	border: 1px solid #B0C4DE;
+    
+    /*border:1px solid #B0C4DE; margin-left:1px*/
+}
+
+.LeftMenu_Panel_TopText
+{
+	background-image: url(/App_Themes/Glass/Images/LeftPage/menubg.jpg);
+	padding-left: 4px;
+	height: 15px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #4F81BD;
+}
+
+.NavBar
+{
+	background-color: #ffffff;
+	cursor: default;
+	margin: 0px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+/* ========================= Level1 ============================ */
+.TopItem
+{
+	color: #4F81BD; /*background-image: url(/OTC.URFORM.Web/App_Themes/Glass/Images/NavBar/item_bg.gif);*/
+	background-image: url(/App_Themes/Glass/Images/LeftPage/left_top_bg.gif);
+	font-family: tahoma, verdana;
+	font-size: 11px;
+	border: 1px solid white;
+	border-right-color: #CFDBEB;
+	border-bottom-color: #CFDBEB;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	cursor: hand;
+}
+.TopItemHover
+{
+	color: #4F81BD;
+	background-color: #FCFDFE; /*background-image: url(/OTC.URFORM.Web/App_Themes/Glass/Images/NavBar/item_hover_bg.gif);*/
+	font-family: tahoma, verdana;
+	font-size: 11px;
+	border: 1px solid white;
+	border-right-color: #B0C4DE;
+	border-bottom-color: #B0C4DE;
+	padding-top: 4px;
+	padding-bottom: 2px;
+	cursor: hand;
+}
+.TopItemActive
+{
+	color: #4F81BD;
+	background-color: #FCFDFE; /*background-image: url(/OTC.URFORM.Web/App_Themes/Glass/Images/NavBar/item_hover_bg.gif);*/
+	font-family: tahoma, verdana;
+	font-size: 11px;
+	border: 1px solid white;
+	border-right-color: #B0C4DE;
+	border-bottom-color: #B0C4DE;
+	padding-top: 4px;
+	padding-bottom: 2px;
+	cursor: hand;
+}
+
+/* ========================= Level2 ============================ */
+.Level2Item
+{
+	font-family: tahoma, verdana;
+	font-size: 11px;
+	border: 1px solid white;
+	border-right-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	padding: 1px;
+	padding-left: 10px; /*margin-left: 10px;*/
+}
+.Level2ItemHover
+{
+	font-family: tahoma, verdana;
+	font-size: 11px;
+	border: 1px solid white;
+	border-right-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	padding: 1px;
+	padding-left: 10px; /*margin-left: 10px;*/
+}
+.Level2ItemSelected
+{
+	background-color: White;
+	font-family: tahoma, verdana;
+	font-size: 11px;
+	border: 1px solid #CCCCCC;
+	border-right-color: white;
+	border-bottom-color: white;
+	padding: 1px;
+	padding-left: 10px; /*margin-left: 10px;*/
+}
+.Level2Group
+{
+	height: 100%;
+	padding: 1px;
+	background-color: white; /*background-image: url(/OTC.URFORM.Web/App_Themes/Glass/Images/NavBar/group_bg.gif);*/
+}
+
+
+.Empty
+{
+}
+
+

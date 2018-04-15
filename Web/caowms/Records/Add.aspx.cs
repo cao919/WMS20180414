@@ -114,14 +114,16 @@ namespace Cao.WMS.Web.caowms.Records
                 if (Rtype == 1)
                 {
                     //当前数据库加 现在入库的
-                    newSQuantity = Convert.ToString(int.Parse(newSQuantity) + int.Parse(txtRQuantity.Text));
+                   // newSQuantity = Convert.ToString(int.Parse(newSQuantity) + int.Parse(txtRQuantity.Text));
+                    newSQuantity = Convert.ToString(int.Parse(newSQuantity) + RQuantity);
                     modelStore.SQuantity = int.Parse(newSQuantity);
                     bllStore.Update(modelStore);
                 }
                 //出库则减
                 else {
                     //当前数据库减 现在入库的
-                    newSQuantity = Convert.ToString(int.Parse(newSQuantity) - int.Parse(txtRQuantity.Text));
+                   // newSQuantity = Convert.ToString(int.Parse(newSQuantity) - int.Parse(txtRQuantity.Text));
+                    newSQuantity = Convert.ToString(int.Parse(newSQuantity) + RQuantity);
                     if (int.Parse(newSQuantity)<0)
                     {
                         strErr += "超出库存量 \\n";

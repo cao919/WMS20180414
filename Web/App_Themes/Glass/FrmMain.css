@@ -1,0 +1,203 @@
+﻿
+
+/* Common tags                 */
+/*-----------------------------*/
+
+body
+{
+	font-family: Verdana;
+	font-size: 12px;
+	color: #000000;
+	padding: 0;
+	margin: 0; /*控制滚动条左右侧实线颜色*/ /*overflow-x: hidden; 隐藏底部的横向滚动条*/
+	scrollbar-arrow-color: #4690C3; /*三角箭头的颜色*/
+	scrollbar-face-color: #EFF6FB; /*立体滚动条的颜色*/
+	scrollbar-3dlight-color: #A3C8E0; /*立体滚动条亮边的颜色*/
+	scrollbar-highlight-color: #ECF3F9; /*滚动条空白部分的颜色*/
+	scrollbar-shadow-color: #ECF3F9; /*立体滚动条阴影的颜色*/
+	scrollbar-darkshadow-color: #A3C8E0; /*滚动条强阴影颜色*/
+	scrollbar-track-color: #F4F8FB; /*立体滚动条背景颜色*/
+	scrollbar-base-color: #F2F2F2; /*滚动条的基本颜色*/
+}
+
+
+A:link
+{
+	color: #41519A;
+	text-decoration: none;
+}
+A:visited
+{
+	color: #41519A;
+	text-decoration: none;
+}
+A:active
+{
+	color: #41519A;
+	cursor: hand;
+	text-decoration: none;
+}
+A:hover
+{
+	color: #548DD4;
+	cursor: hand;
+	text-decoration: "underline";
+}
+
+A.bodyLink:link
+{
+	color: #41519A;
+	text-decoration: none;
+	font-weight: bold;
+}
+A.bodyLink:visited
+{
+	color: #41519A;
+	text-decoration: none;
+	font-weight: bold;
+}
+A.bodyLink:active
+{
+	color: #41519A;
+	cursor: hand;
+	text-decoration: none;
+	font-weight: bold;
+}
+A.bodyLink:hover
+{
+	color: #548DD4;
+	cursor: hand;
+	text-decoration: "underline";
+	font-weight: bold;
+}
+
+/* ----------------------------------------------工作表--------------------------------------------------- */
+.work_box
+{
+	background-color: #FFFFFF;
+	font-family: tahoma, sans-serif, arial;
+	font-size: 12px;
+	font-weight: normal;
+	vertical-align: bottom;
+	border-top: solid 1px #729FCF;
+	border-bottom: solid 1px #729FCF;
+	border-left: solid 1px #729FCF;
+	border-right: solid 1px #729FCF;
+	padding: 2px;
+}
+
+.work_box_1
+{
+	background-color: #FEFAD1;
+	font-family: verdana;
+	font-size: 11px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-left: solid 1px #7F7F7F;
+	border-top: solid 1px #7F7F7F;
+	border-bottom: solid 2px #7F7F7F;
+	border-right: solid 2px #7F7F7F;
+}
+
+.work_box_header
+{
+	background-image: url(/App_Themes/Glass/Images/Control/work_box_header_bg2.gif);
+	font-family: tahoma, sans-serif, arial;
+	font-size: 12px;
+	color: #000000;
+	font-weight: bold;
+	padding-top: 4px;
+	padding-left: 6px;
+	padding-bottom: 3px;
+	padding-right: 2px;
+	border-top: 1px solid #729FCF;
+	border-bottom: 1px solid #729FCF;
+	height: 15px;
+}
+
+.work_box_item_text
+{
+	font-family: tahoma, sans-serif, arial;
+	font-size: 12px;
+	text-align: right;
+	color: #000000;
+	padding:0px;
+	padding-left: 0px;
+	padding-right: 2px;
+	/*background:#D6E4F5;*/
+}
+
+.work_box_item_value
+{
+	font-family: tahoma, sans-serif, arial;
+	font-size: 12px;
+	color: #000000;
+	padding:0px;
+	padding-left: 2px;
+	padding-right: 0px;
+}
+
+.work_box_tab
+{
+	background-color: #DEEBF5;
+	font-family: verdana;
+	font-size: 13px;
+	font-weight: bold;
+	color: #1273BA;
+	vertical-align: bottom;
+	text-align: center;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 8px;
+	padding-right: 8px;
+	border-top: solid 2px #A3C8E0;
+	border-bottom: solid 0px #AED0DD;
+	border-left: solid 2px #AED0DD;
+	border-right: solid 4px #A3C8E0;
+}
+
+TD.CRowBlue
+{
+    BACKGROUND-COLOR: blue;
+    FONT-FAMILY: "新宋体";
+    FONT-SIZE: 12pt;
+    HEIGHT: 12px
+}
+TD.CRowRed
+{
+    BACKGROUND-COLOR: red;
+    FONT-FAMILY: "新宋体";
+    FONT-SIZE: 12pt;
+    HEIGHT: 12px
+}
+TD.CRowYellow
+{
+    BACKGROUND-COLOR: yellow;
+    FONT-FAMILY: "新宋体";
+    FONT-SIZE: 12pt;
+    HEIGHT: 12px
+}
+TD.CRowSel
+{
+    BACKGROUND-COLOR: #00FF00;
+    FONT-FAMILY: "新宋体";
+    FONT-SIZE: 10pt;
+    HEIGHT: 12px
+}
+TD.CRowWhite
+{
+    BACKGROUND-COLOR: #FFFFFF;
+    FONT-FAMILY: "新宋体";
+    FONT-SIZE: 10pt;
+    HEIGHT: 12px
+}
+/* ------------------------------------------------------------------------------------------------------------ */
+
+
+/* -----------------------------------------------------PopWin样式------------------------------------------------ */
+
+
+
+

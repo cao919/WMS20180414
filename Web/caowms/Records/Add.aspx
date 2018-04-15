@@ -28,7 +28,7 @@
 		当前数量
 	：</td>
 	<td height="25" width="*" align="left">
-		<asp:TextBox id="txtSQuantity" runat="server" Width="200px"></asp:TextBox>
+		<asp:TextBox id="txtSQuantity" runat="server" Width="200px"></asp:TextBox>所有新增SKU仓库默认为0
 	</td></tr>
 	<tr>
 	<td height="25" width="30%" align="right">

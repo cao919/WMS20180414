@@ -1,0 +1,18 @@
+﻿
+.ListSearchExtenderPrompt
+{	
+	font-family: Verdana;
+	font-style:italic;
+	color:#CC0000;
+	background-color:#EEEEEC;
+	
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 1px;
+	padding-right: 0px;
+	
+	border-top: solid 1px #CFDBEB;
+	border-bottom: solid 1px #CFDBEB;
+	border-left: solid 1px #CFDBEB;
+	border-right: solid 1px #CFDBEB;
+}
