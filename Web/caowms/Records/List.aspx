@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Records" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeBehind="List.aspx.cs" Inherits="Cao.WMS.Web.caowms.Records.List" %>
+﻿<%@ Page Title="Records" Language="C#" MasterPageFile="~/WebForm/MasterPage.master" AutoEventWireup="true" CodeBehind="List.aspx.cs" Inherits="Cao.WMS.Web.caowms.Records.List" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 <script language="javascript" src="/js/CheckBox.js" type="text/javascript"></script>
 </asp:Content>
@@ -46,7 +46,7 @@
 		<asp:BoundField DataField="RQuantity" HeaderText="进出数量" SortExpression="RQuantity" ItemStyle-HorizontalAlign="Center"  /> 
 		<asp:BoundField DataField="Rtype" HeaderText="1入库  2出库" SortExpression="Rtype" ItemStyle-HorizontalAlign="Center"  /> 
 		<asp:BoundField DataField="RHandler" HeaderText="提（送）货人名" SortExpression="RHandler" ItemStyle-HorizontalAlign="Center"  /> 
-		<asp:BoundField DataField="RBak" HeaderText="备注" SortExpression="RBak" ItemStyle-HorizontalAlign="Center"  /> 
+		<asp:BoundField DataField="n_bakk" HeaderText="n_bakk" SortExpression="n_bakk" ItemStyle-HorizontalAlign="Center"  /> 
 		<asp:BoundField DataField="RTime" HeaderText="更新时间" SortExpression="RTime" ItemStyle-HorizontalAlign="Center"  /> 
                             
                             <asp:HyperLinkField HeaderText="详细" ControlStyle-Width="50" DataNavigateUrlFields="RID" DataNavigateUrlFormatString="Show.aspx?id={0}"

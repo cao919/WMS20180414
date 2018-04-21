@@ -39,6 +39,7 @@ namespace Cao.WMS.Web.caowms.Records
 		this.lblRHandler.Text=model.RHandler;
 		this.lblRTime.Text=model.RTime.ToString();
 
+        this.lbln_bakk.Text = model.n_bakk.ToString();
 	}
 
 

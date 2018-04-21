@@ -61,9 +61,9 @@ namespace Cao.WMS.DAL.caowms
 		{
 			StringBuilder strSql=new StringBuilder();
 			strSql.Append("insert into Records(");
-            strSql.Append("RGID,RWID,RQuantity,Rtype,RHandler,RTime,RBak)");
+            strSql.Append("RGID,RWID,RQuantity,Rtype,RHandler,RTime,n_bakk)");
 			strSql.Append(" values (");
-            strSql.Append("@RGID,@RWID,@RQuantity,@Rtype,@RHandler,@RTime,@RBak)");
+            strSql.Append("@RGID,@RWID,@RQuantity,@Rtype,@RHandler,@RTime,@n_bakk)");
 			strSql.Append(";select @@IDENTITY");
 			SqlParameter[] parameters = {
 					new SqlParameter("@RGID", SqlDbType.NVarChar,50),
@@ -72,14 +72,14 @@ namespace Cao.WMS.DAL.caowms
 					new SqlParameter("@Rtype", SqlDbType.Int,4),
 					new SqlParameter("@RHandler", SqlDbType.NVarChar,50),
 					new SqlParameter("@RTime", SqlDbType.DateTime), 
-					new SqlParameter("@RBak", SqlDbType.NVarChar,200)};
+					new SqlParameter("@n_bakk", SqlDbType.NVarChar,200)};
 			parameters[0].Value = model.RGID;
 			parameters[1].Value = model.RWID;
 			parameters[2].Value = model.RQuantity;
 			parameters[3].Value = model.Rtype;
 			parameters[4].Value = model.RHandler;
 			parameters[5].Value = model.RTime;
-            parameters[4].Value = model.N_bak;
+            parameters[4].Value = model.n_bakk;
 
 			object obj = DbHelperSQL.GetSingle(strSql.ToString(),parameters);
 			if (obj == null)
@@ -104,7 +104,7 @@ namespace Cao.WMS.DAL.caowms
 			strSql.Append("Rtype=@Rtype,");
 			strSql.Append("RHandler=@RHandler,");
             strSql.Append("RTime=@RTime");
-            strSql.Append("RBak=@RBak,");
+            strSql.Append("n_bakk=@n_bakk,");
 			strSql.Append(" where RID=@RID");
 			SqlParameter[] parameters = {
 					new SqlParameter("@RGID", SqlDbType.NVarChar,50),
@@ -113,7 +113,7 @@ namespace Cao.WMS.DAL.caowms
 					new SqlParameter("@Rtype", SqlDbType.Int,4),
 					new SqlParameter("@RHandler", SqlDbType.NVarChar,50),
 					new SqlParameter("@RTime", SqlDbType.DateTime),
-					new SqlParameter("@RBak", SqlDbType.NVarChar,200),
+					new SqlParameter("@n_bakk", SqlDbType.NVarChar,200),
 					new SqlParameter("@RID", SqlDbType.Int,4)};
 			parameters[0].Value = model.RGID;
 			parameters[1].Value = model.RWID;
@@ -121,7 +121,7 @@ namespace Cao.WMS.DAL.caowms
 			parameters[3].Value = model.Rtype;
 			parameters[4].Value = model.RHandler;
 			parameters[5].Value = model.RTime;
-            parameters[6].Value = model.N_bak;
+            parameters[6].Value = model.n_bakk;
             
 			parameters[7].Value = model.RID;
 
@@ -187,7 +187,7 @@ namespace Cao.WMS.DAL.caowms
 		{
 			
 			StringBuilder strSql=new StringBuilder();
-			strSql.Append("select  top 1 RID,RGID,RWID,RQuantity,Rtype,RHandler,RTime from Records ");
+            strSql.Append("select  top 1 RID,RGID,RWID,RQuantity,Rtype,RHandler,RTime,n_bakk from Records ");
 			strSql.Append(" where RID=@RID");
 			SqlParameter[] parameters = {
 					new SqlParameter("@RID", SqlDbType.Int,4)
@@ -240,9 +240,9 @@ namespace Cao.WMS.DAL.caowms
 					model.RHandler=row["RHandler"].ToString();
 				}
 
-                if (row["RBak"] != null)
+                if (row["n_bakk"] != null)
 				{
-                    model.N_bak = row["RBak"].ToString();
+                    model.n_bakk = row["n_bakk"].ToString();
 				}
 				if(row["RTime"]!=null && row["RTime"].ToString()!="")
 				{
@@ -258,7 +258,7 @@ namespace Cao.WMS.DAL.caowms
 		public DataSet GetList(string strWhere)
 		{
 			StringBuilder strSql=new StringBuilder();
-            strSql.Append("select RID,RGID,RWID,RQuantity,Rtype,RHandler,RTime,RBak ");
+            strSql.Append("select RID,RGID,RWID,RQuantity,Rtype,RHandler,RTime,n_bakk ");
 			strSql.Append(" FROM Records ");
 			if(strWhere.Trim()!="")
 			{
@@ -278,7 +278,7 @@ namespace Cao.WMS.DAL.caowms
 			{
 				strSql.Append(" top "+Top.ToString());
 			}
-            strSql.Append(" RID,RGID,RWID,RQuantity,Rtype,RHandler,RTime,RBak ");
+            strSql.Append(" RID,RGID,RWID,RQuantity,Rtype,RHandler,RTime,n_bakk ");
 			strSql.Append(" FROM Records ");
 			if(strWhere.Trim()!="")
 			{

@@ -10,7 +10,7 @@ using System.Web.UI.WebControls.WebParts;
 using System.Web.UI.HtmlControls;
 using System.Text;
 using Maticsoft.Common;
-using LTP.Accounts.Bus;
+
 namespace Cao.WMS.Web.caowms.Records
 {
     public partial class Modify : Page
@@ -50,7 +50,7 @@ namespace Cao.WMS.Web.caowms.Records
         }
 		this.txtRHandler.Text=model.RHandler;
         this.txtRTime.Text = model.RTime.ToString();
-        this.txt_bak.Text = model.N_bak;
+        this.txt_bak.Text = model.n_bakk;
 
 	}
 
@@ -162,7 +162,7 @@ namespace Cao.WMS.Web.caowms.Records
 			model.Rtype=Rtype;
 			model.RHandler=RHandler;
 			model.RTime=RTime;
-            model.N_bak = this.txt_bak.Text.Trim();
+            model.n_bakk = this.txt_bak.Text.Trim();
 
 			Cao.WMS.BLL.caowms.Records bll=new Cao.WMS.BLL.caowms.Records();
 			bll.Update(model);

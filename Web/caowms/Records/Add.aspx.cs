@@ -10,7 +10,7 @@ using System.Web.UI.WebControls.WebParts;
 using System.Web.UI.HtmlControls;
 using System.Text;
 using Maticsoft.Common;
-using LTP.Accounts.Bus;
+
 namespace Cao.WMS.Web.caowms.Records
 {
     public partial class Add : Page
@@ -150,7 +150,7 @@ namespace Cao.WMS.Web.caowms.Records
 			model.Rtype=Rtype;
 			model.RHandler=RHandler;
             model.RTime = RTime;
-            model.N_bak = this.txt_bak.Text.Trim();
+            model.n_bakk = this.txt_bak.Text.Trim();
 			Cao.WMS.BLL.caowms.Records bll=new Cao.WMS.BLL.caowms.Records();
 			bll.Add(model);
             Maticsoft.Common.MessageBox.ShowAndRedirect(this, "保存成功！", "list.aspx");

@@ -18,7 +18,7 @@ namespace Cao.WMS.Model.caowms
 		private string _rhandler;
 		private DateTime? _rtime= DateTime.Now;
 
-        private string _n_bak;
+        private string _n_bakk;
 		/// <summary>
 		/// 
 		/// </summary>
@@ -70,10 +70,10 @@ namespace Cao.WMS.Model.caowms
         /// <summary>
         /// 备注
         /// </summary>
-        public string N_bak
+        public string n_bakk
 		{
-            set { _n_bak = value; }
-            get { return _n_bak; }
+            set { _n_bakk = value; }
+            get { return _n_bakk; }
 		}
 		/// <summary>
 		/// 

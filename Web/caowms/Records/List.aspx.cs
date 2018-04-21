@@ -7,7 +7,7 @@ using System.Text;
 using System.Data;
 using Maticsoft.Common;
 using System.Drawing;
-using LTP.Accounts.Bus;
+
 namespace Cao.WMS.Web.caowms.Records
 {
     public partial class List : Page
@@ -21,8 +21,8 @@ namespace Cao.WMS.Web.caowms.Records
         {
             if (!Page.IsPostBack)
             {
-                gridView.BorderColor = ColorTranslator.FromHtml(Application[Session["Style"].ToString() + "xtable_bordercolorlight"].ToString());
-                gridView.HeaderStyle.BackColor = ColorTranslator.FromHtml(Application[Session["Style"].ToString() + "xtable_titlebgcolor"].ToString());
+               // gridView.BorderColor = ColorTranslator.FromHtml(Application[Session["Style"].ToString() + "xtable_bordercolorlight"].ToString());
+              //  gridView.HeaderStyle.BackColor = ColorTranslator.FromHtml(Application[Session["Style"].ToString() + "xtable_titlebgcolor"].ToString());
                 btnDelete.Attributes.Add("onclick", "return confirm(\"你确认要删除吗？\")");
                 BindData();
             }
@@ -66,7 +66,7 @@ namespace Cao.WMS.Web.caowms.Records
             StringBuilder strWhere = new StringBuilder();
             if (txtKeyword.Text.Trim() != "")
             {      
-                #warning 代码生成警告：请修改 keywordField 为需要匹配查询的真实字段名称
+                //#warning 代码生成警告：请修改 keywordField 为需要匹配查询的真实字段名称
                 //strWhere.AppendFormat("keywordField like '%{0}%'", txtKeyword.Text.Trim());
             }            
             ds = bll.GetList(strWhere.ToString());            
